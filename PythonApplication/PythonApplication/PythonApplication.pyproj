@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cd1195ff-3c5c-4a9e-9ff8-7c1b1d1664db</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Simple_drawing_window.py</StartupFile>
+    <StartupFile>Hanoi.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

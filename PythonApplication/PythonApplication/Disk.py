@@ -10,7 +10,8 @@ class Disk(object):
        self.color = "#ff3322"
 
    def showdisk(self):
-        fillcolor(self.color)
+        color(self.color)
+        pencolor(self.color)
         pu()
         goto(self.x_pos,self.y_pos)
         pd()
@@ -31,7 +32,8 @@ class Disk(object):
         self.x_pos = x
         self.y_pos = y
    def cleardisk(self):
-        fillcolor("#ffffff")
+        color("#ffffff")
+        pencolor("#ffffff")
         pu()
         goto(self.x_pos,self.y_pos)
         pd()

@@ -8,7 +8,7 @@ class Pole:
         self.x_pos = x_pos
         self.y_pos = y_pos
         self.thickness = 5
-        self.length = 20
+        self.length = 300
         self.color = "#3311FF"
 
     def showpole(self):
@@ -33,10 +33,16 @@ class Pole:
 
     def pushdisk(self, disk):
         self.stack.append(disk)
+        disk.newpos(self.x_pos, self.top_pos)
+
+        self.top_pos+=150
         
         disk.showdisk()
 
     def popdisk(self):
+
+        self.top_pos -= 150
+
         for i in self.stack:
             i.cleardisk()
 
