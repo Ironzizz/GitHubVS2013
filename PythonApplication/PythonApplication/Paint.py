@@ -16,6 +16,12 @@ w = Canvas(master,
 w.pack(expand = YES, fill = BOTH)
 w.bind( "<B1-Motion>", paint )
 
+def cls():
+    w.delete("all")
+
+clear = Button(master, text="Clear", command=cls)
+clear.pack(side=BOTTOM)
+
 message = Label( master, text = "Drag the mouse to draw" )
 message.pack( side = BOTTOM )
     
