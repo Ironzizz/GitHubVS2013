@@ -1,3 +1,5 @@
+from tkinter import *
+
 class Pole:
     def __init__(self, name, x_pos, y_pos):
         self.name = name

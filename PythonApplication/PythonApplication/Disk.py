@@ -1,4 +1,5 @@
 from tkinter import *
+
 class Disk(object):
    def __init__(self,name,x_pos,y_pos,height,width,color):
        self.name = name
