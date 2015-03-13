@@ -32,9 +32,8 @@ class Pole:
         penup()
 
     def pushdisk(self, disk):
-        self.stack.append(disk.stack.pop())
+        self.stack.append(disk)
 
     def popdisk(self):
-        self.top_pos = 120
-        return self.stack[-1]
+        return self.stack.pop()
 

@@ -1,13 +1,13 @@
 from turtle import *
 
 class Disk(object):
-   def __init__(self,name,x_pos,y_pos,height,width,color):
+   def __init__(self,name,x_pos,y_pos,height,width):
        self.name = name
        self.x_pos = x_pos
        self.y_pos = y_pos
        self.height = height
        self.width = width
-       self.color = color
+       self.color = "#ff3322"
 
    def showdisk(self):
         fillcolor(self.color)
