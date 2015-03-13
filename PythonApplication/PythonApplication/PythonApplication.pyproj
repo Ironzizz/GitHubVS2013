@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cd1195ff-3c5c-4a9e-9ff8-7c1b1d1664db</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonApplication.py</StartupFile>
+    <StartupFile>Simple_drawing_window.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PythonApplication.py" />
+    <Compile Include="Simple_drawing_window2.py" />
+    <Compile Include="Simple_drawing_window.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
