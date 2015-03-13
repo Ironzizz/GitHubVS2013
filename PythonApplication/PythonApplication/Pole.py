@@ -1,4 +1,4 @@
-from tkinter import *
+from turtle import *
 
 class Pole:
     def __init__(self, name, x_pos, y_pos):

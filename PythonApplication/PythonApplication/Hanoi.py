@@ -1,4 +1,4 @@
-from tkinter import *
+from turtle import *
 from Disk import *
 from Pole import *
 
