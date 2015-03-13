@@ -25,6 +25,9 @@
     <Compile Include="Paint.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Pole.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Simple_drawing_window.py" />
   </ItemGroup>
   <ItemGroup>
