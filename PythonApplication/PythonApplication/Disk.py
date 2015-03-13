@@ -31,7 +31,7 @@ class Disk(object):
         self.x_pos = x
         self.y_pos = y
    def cleardisk(self):
-        fillcolor("#000000")
+        fillcolor("#ffffff")
         pu()
         goto(self.x_pos,self.y_pos)
         pd()

@@ -33,7 +33,20 @@ class Pole:
 
     def pushdisk(self, disk):
         self.stack.append(disk)
+        
+        disk.showdisk()
 
     def popdisk(self):
-        return self.stack.pop()
+        for i in self.stack:
+            i.cleardisk()
+
+        self.showpole()
+
+        ret = self.stack.pop()
+
+        for i in self.stack:
+            i.showdisk()
+
+        return ret
+
 

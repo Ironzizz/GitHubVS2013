@@ -30,5 +30,6 @@ class Hanoi(object):
 
 h=Hanoi()
 h.solve()
+done()
 
 
